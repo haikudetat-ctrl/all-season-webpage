@@ -1277,14 +1277,27 @@ textarea:focus,
 
   .site-header {
     top: 8px;
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 10px;
+    min-height: 58px;
+    width: min(calc(100vw - 20px), 1440px);
+    margin-top: 8px;
+    padding: 8px;
+  }
+
+  .brand-mark {
+    min-width: 0;
+  }
+
+  .brand-logo {
+    width: min(136px, 42vw);
+    max-width: 100%;
   }
 
   .brand-lockup {
     display: none;
   }
 
-  .header-actions,
   .action-row,
   .toggle-row,
   .form-grid,
@@ -1299,13 +1312,15 @@ textarea:focus,
     grid-template-columns: 1fr;
   }
 
-  .header-actions,
   .action-row {
     display: grid;
   }
 
   .header-actions {
+    display: flex;
+    justify-content: flex-end;
     gap: 8px;
+    min-width: max-content;
   }
 
   .main-nav {
@@ -1314,15 +1329,34 @@ textarea:focus,
 
   .icon-link {
     justify-content: center;
+    width: 40px;
+    min-height: 40px;
+    padding: 0;
+    border: 1px solid var(--line);
+    background: rgba(255, 255, 255, 0.72);
+    color: var(--ink);
   }
 
-  .quote-button,
+  .icon-link span {
+    display: none;
+  }
+
+  .quote-button {
+    width: auto;
+    min-height: 40px;
+    padding: 0 12px;
+  }
+
+  .quote-button span {
+    font-size: 0.84rem;
+  }
+
   .button-link {
     width: 100%;
   }
 
   .premium-home {
-    margin-top: -132px;
+    margin-top: -84px;
   }
 
   .hero-section {
@@ -1330,7 +1364,7 @@ textarea:focus,
   }
 
   .hero-content {
-    padding: 230px 0 54px;
+    padding: 170px 0 54px;
   }
 
   .hero-content h1,
