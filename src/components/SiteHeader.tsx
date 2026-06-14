@@ -21,11 +21,11 @@ export function SiteHeader() {
       </nav>
 
       <div className="header-actions">
-        <a className="icon-link" href={brand.phoneHref}>
+        <a className="icon-link" href={brand.phoneHref} aria-label={`Call ${brand.name}`}>
           <Phone aria-hidden="true" size={18} />
           <span>{brand.phone}</span>
         </a>
-        <Link className="quote-button" href="/roof-quote">
+        <Link className="quote-button" href="/roof-quote" aria-label="Start roof quote">
           <Calculator aria-hidden="true" size={18} />
           <span>Roof quote</span>
         </Link>
