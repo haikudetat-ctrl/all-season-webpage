@@ -1,0 +1,208 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Option A Close Package</title>
+  <style>
+    @page { size: Letter; margin: 0.62in; }
+    :root {
+      --ink: #111827;
+      --muted: #5f6b7a;
+      --line: #dce5ec;
+      --paper: #f7f9fb;
+      --blue: #3f5ca5;
+      --teal: #4393a2;
+      --green: #96c355;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: white;
+      color: var(--ink);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.48;
+    }
+    .cover {
+      min-height: 9.4in;
+      display: grid;
+      align-content: space-between;
+      padding: 0.1in 0 0.2in;
+      break-after: page;
+    }
+    .grid {
+      background:
+        linear-gradient(#edf2f6 1px, transparent 1px),
+        linear-gradient(90deg, #edf2f6 1px, transparent 1px);
+      background-size: 28px 28px;
+    }
+    .logo { width: 230px; height: auto; }
+    .kicker {
+      color: var(--blue);
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      margin: 0 0 14px;
+    }
+    h1 {
+      font-size: 52px;
+      line-height: 0.98;
+      letter-spacing: -0.02em;
+      margin: 0 0 18px;
+      max-width: 690px;
+    }
+    .subtitle {
+      color: var(--muted);
+      font-size: 19px;
+      max-width: 650px;
+      margin: 0;
+    }
+    .ribbon {
+      height: 18px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, var(--blue), var(--teal), var(--green));
+      margin: 44px 0 0;
+    }
+    .cover-meta {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+    }
+    .meta-card, .doc {
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: rgba(255,255,255,0.92);
+      box-shadow: 0 18px 48px rgba(16, 36, 63, 0.08);
+    }
+    .meta-card { padding: 18px; }
+    .meta-card strong { display: block; font-size: 18px; margin-bottom: 4px; }
+    .meta-card span { color: var(--muted); font-size: 13px; }
+    .doc {
+      padding: 0.1in 0.18in 0.18in;
+      margin-bottom: 0.26in;
+      break-inside: avoid;
+    }
+    .doc + .doc { break-before: page; }
+    h2 {
+      font-size: 31px;
+      line-height: 1.05;
+      letter-spacing: -0.01em;
+      margin: 22px 0 12px;
+    }
+    h3 {
+      font-size: 18px;
+      margin: 20px 0 8px;
+      color: #183454;
+    }
+    p, li {
+      font-size: 12.5px;
+      color: #263647;
+    }
+    p { margin: 7px 0; }
+    ul, ol { margin: 8px 0 8px 20px; padding: 0; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 10.5px;
+      break-inside: avoid;
+    }
+    th {
+      text-align: left;
+      background: #edf4f6;
+      color: #10243f;
+      font-weight: 800;
+    }
+    th, td {
+      border: 1px solid var(--line);
+      padding: 7px 8px;
+      vertical-align: top;
+    }
+    code, pre {
+      font-family: "SFMono-Regular", Consolas, monospace;
+      background: #eef3f7;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      color: #10243f;
+    }
+    code { padding: 1px 4px; }
+    pre { padding: 12px; white-space: pre-wrap; font-size: 11px; }
+    blockquote {
+      margin: 12px 0;
+      padding: 10px 14px;
+      border-left: 4px solid var(--teal);
+      background: #f3f8f8;
+      color: #203446;
+    }
+    .section-label {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 5px 9px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, rgba(63,92,165,0.12), rgba(150,195,85,0.12));
+      color: #10243f;
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+    .footer-note {
+      color: var(--muted);
+      font-size: 11px;
+      border-top: 1px solid var(--line);
+      padding-top: 14px;
+      margin-top: 24px;
+    }
+  </style>
+</head>
+<body>
+  <section class="cover grid">
+    <div>
+      <img class="logo" src="file:///Users/surfturf/Downloads/2Stack_Long_TransBLK.png" alt="2Stack" />
+      <div class="ribbon"></div>
+    </div>
+    <div>
+      <p class="kicker">AllSeason Option A Close Package</p>
+      <h1>Owned acquisition buildout plus 90-day revenue system operation.</h1>
+      <p class="subtitle">A Chris-facing package for approving the $5,000 buildout and $3,000/month operating retainer with scope, scorecard, talk track, production proof, and next-step email.</p>
+    </div>
+    <div class="cover-meta">
+      <div class="meta-card"><strong>$5,000</strong><span>Website, quote engine, intake, and campaign loop buildout</span></div>
+      <div class="meta-card"><strong>$3,000/mo</strong><span>90-day operating retainer for source quality, speed-to-lead, and CAC discipline</span></div>
+      <div class="meta-card"><strong>30-day notice</strong><span>Break clause after the first 90-day proof cycle</span></div>
+    </div>
+  </section>
+  <article class="doc"><span class="section-label">OPTION A ONE PAGE SOW</span><h2>Option A One-Page SOW</h2><h3>Engagement</h3><p><strong>Client:</strong> AllSeason Solar / Roofing <strong>Provider:</strong> 2Stack <strong>Offer:</strong> Option A - Owned Acquisition Buildout + Revenue System Operation <strong>Price:</strong> $5,000 buildout + $3,000/month operating retainer <strong>Recommended term:</strong> 90-day operating cycle after launch readiness</p><h3>Objective</h3><p>Build and operate the first version of AllSeason's owned acquisition system so high-intent roofing and solar demand is captured, routed, handled, and measured with owner-level discipline.</p><p>The goal is not simply to launch a better-looking website. The goal is to reduce lead leakage, improve first-touch quality, and give Chris a clean view of which sources deserve more money.</p><h3>Included Buildout</h3><h4>1. Rebrand-Ready Website MVP</h4><ul><li>Standalone modern website built outside the existing WordPress stack.</li><li>Launch brand remains AllSeason.</li><li>Structure supports future rebrand with centralized brand/content controls.</li><li>Core pages:</li><li>Home</li><li>Roofing</li><li>Solar</li><li>Roof + Solar</li><li>Warranty / Financing</li><li>Service Areas</li><li>About / Proof</li><li>Contact</li><li>Roof Quote</li></ul><h4>2. Native Roof Quote Engine</h4><ul><li>ZIP/service-area check.</li><li>Roof size, condition, urgency, and complexity inputs.</li><li>Good / better / best estimate logic:</li><li>good: $550/square</li><li>better: $650/square</li><li>best: $750/square</li><li>Configurable modifiers for urgency, steepness, layers, decking concern, skylights, and solar-readiness interest.</li><li>Contact capture before showing final estimate range.</li><li>Consent language and attribution fields.</li><li>Server-side submit to Supabase lead intake.</li></ul><h4>3. Revenue Intake and Routing</h4><ul><li>Website API route posts to Supabase using private intake key server-side.</li><li>Browser never sees the private key.</li><li>New owned source configured as:</li><li>source name: <code>AllSeason Roof Quote</code></li><li>source type: <code>owned_website</code></li><li>exclusive: <code>true</code></li><li>priority: <code>P0</code></li><li>queue: <code>roofing_preview_queue</code></li><li>sequence: <code>roofing_day0_high_intent</code></li><li>script: <code>roof_quote_widget_opener</code></li></ul><h4>4. First Campaign Loop</h4><ul><li>Static Meta campaign landing route for <code>Fight The Power</code>.</li><li>Source-specific solar savings/roof-readiness capture logic.</li><li>Day-zero call, SMS, email, and voicemail sequence.</li><li>Rep opener matched to ad context.</li></ul><h4>5. Tracking and Reporting Foundation</h4><p>Events to track:</p><ul><li><code>quote_started</code></li><li><code>zip_checked</code></li><li><code>quote_step_completed</code></li><li><code>contact_submitted</code></li><li><code>estimate_shown</code></li><li><code>call_clicked</code></li><li><code>form_submitted</code></li></ul><p>Initial owner scorecard:</p><ul><li>leads by source;</li><li>speed-to-lead;</li><li>contact rate;</li><li>appointment set rate;</li><li>demo/sit rate;</li><li>sold jobs;</li><li>estimated CAC by source once cost and sales outcome data are available.</li></ul><h3>Monthly Operating Retainer</h3><p>The $3,000/month retainer is for operating the system, not passive maintenance.</p><p>Included monthly work:</p><ul><li>campaign and landing page improvement;</li><li>quote flow conversion tuning;</li><li>source-specific script refinement;</li><li>lead routing QA;</li><li>speed-to-lead review;</li><li>tracking and scorecard review;</li><li>monthly owner recommendations:</li><li>scale this;</li><li>fix this;</li><li>cut this.</li></ul><h3>Timeline</h3><table><tr><th>Phase</th><th>Timing</th><th>Work</th></tr><tr><td>Kickoff</td><td>Week 1</td><td>Access, source map, tracking plan, content inventory</td></tr><tr><td>Build Sprint</td><td>Weeks 2-3</td><td>Website MVP, core pages, quote flow UI</td></tr><tr><td>Integration</td><td>Week 4</td><td>API route, Supabase intake, events, attribution fields</td></tr><tr><td>GTM Setup</td><td>Week 5</td><td>Meta route, scripts, sequences, reporting views</td></tr><tr><td>Launch Readiness</td><td>Week 6</td><td>QA, tracking test, mobile review, handoff</td></tr><tr><td>Operating Cycle</td><td>Days 1-90 after launch</td><td>Improve conversion, routing, scripts, and scorecard decisions</td></tr></table><h3>Guarantees</h3><h4>Launch Readiness Guarantee</h4><p>If 2Stack causes the scoped launch to miss the agreed launch-readiness window, 2Stack continues buildout work at no added buildout fee until the scoped deliverables are launch-ready.</p><h4>Visibility Guarantee</h4><p>Chris gets a monthly operating review showing what happened, what was learned, and what 2Stack recommends scaling, fixing, or cutting.</p><h4>Process Guarantee</h4><p>P0 owned website leads will have defined routing, context fields, and source-specific scripts. The system will not treat owned quote leads like generic cold leads.</p><h3>What Is Not Guaranteed</h3><p>2Stack cannot honestly guarantee ad platform costs, homeowner behavior, financing market changes, sales rep execution, storm demand, Google/Meta policy changes, or a specific closed-job count.</p><p>The guarantee is operating discipline, clean implementation, and transparent measurement.</p><h3>Break Clause</h3><p>After the first 90-day operating cycle, either side may end the monthly retainer with 30 days written notice.</p><p>If the client chooses Option B/build-only, there is no ongoing operating commitment after delivery.</p><h3>Client Responsibilities</h3><p>AllSeason provides:</p><ul><li>domain/DNS access as needed;</li><li>website content approvals;</li><li>warranty/legal claim review;</li><li>CRM/dialer access or field mapping support;</li><li>Supabase/lead intake production credentials as needed;</li><li>timely feedback within agreed review windows;</li><li>source cost and sales outcome data for CAC reporting.</li></ul><h3>Out Of Scope For Initial Build</h3><ul><li>full CRM replacement;</li><li>external roof measurement APIs;</li><li>full rebrand/name change execution;</li><li>broad SEO program;</li><li>call center hiring/training beyond scripts and process design;</li><li>paid media budget;</li><li>legal review of warranty, finance, incentive, or savings claims.</li></ul><h3>Decision</h3><p>Approve Option A:</p><pre>$5,000 buildout
+$3,000/month operating retainer
+90-day proof cycle</pre><p>Next step: kickoff call, access checklist, and build sprint start date.</p></article>
+<article class="doc"><span class="section-label">OPTION A 90 DAY SCORECARD</span><h2>Option A 90-Day Owner Scorecard</h2><h3>Purpose</h3><p>This is the scorecard Chris should see during the first 90 days of Option A.</p><p>It is designed to answer owner questions:</p><ul><li>Which sources are worth more money?</li><li>Which sources need repair?</li><li>Which sources should be cut?</li><li>Are high-intent leads being contacted fast enough?</li><li>Is the website and quote engine creating better context?</li><li>Are roofing and solar opportunities moving toward profitable jobs?</li></ul><h3>Monthly Owner Review Format</h3><p>Each monthly review should end with three decisions:</p><table><tr><th>Decision</th><th>Meaning</th></tr><tr><td>Scale</td><td>Put more money, creative, or operational focus behind this</td></tr><tr><td>Fix</td><td>Keep testing, but repair the offer, script, landing page, or routing</td></tr><tr><td>Cut</td><td>Stop buying or reduce spend until economics improve</td></tr></table><h3>Top-Level Scorecard</h3><table><tr><th>Metric</th><th>Target / Question</th><th>Month 1</th><th>Month 2</th><th>Month 3</th><th>Decision</th></tr><tr><td>Owned website leads</td><td>Are owned channels producing real conversations?</td><td>TBD</td><td>TBD</td><td>TBD</td><td>TBD</td></tr><tr><td>Roof quote starts</td><td>Are homeowners engaging with the quote tool?</td><td>TBD</td><td>TBD</td><td>TBD</td><td>TBD</td></tr><tr><td>Roof quote completions</td><td>Is the quote flow converting?</td><td>TBD</td><td>TBD</td><td>TBD</td><td>TBD</td></tr><tr><td>P0 leads created</td><td>Are high-intent leads being routed correctly?</td><td>TBD</td><td>TBD</td><td>TBD</td><td>TBD</td></tr><tr><td>Median speed-to-first-touch</td><td>Are reps moving fast enough?</td><td>TBD</td><td>TBD</td><td>TBD</td><td>TBD</td></tr><tr><td>Contact rate</td><td>Are we reaching the homeowner?</td><td>TBD</td><td>TBD</td><td>TBD</td><td>TBD</td></tr><tr><td>Appointment set rate</td><td>Are first touches converting to appointments?</td><td>TBD</td><td>TBD</td><td>TBD</td><td>TBD</td></tr><tr><td>Demo/sit rate</td><td>Are appointments real?</td><td>TBD</td><td>TBD</td><td>TBD</td><td>TBD</td></tr><tr><td>Sold jobs</td><td>Are sources producing revenue?</td><td>TBD</td><td>TBD</td><td>TBD</td><td>TBD</td></tr><tr><td>Sold-job CAC</td><td>Is the source profitable enough to scale?</td><td>TBD</td><td>TBD</td><td>TBD</td><td>TBD</td></tr></table><h3>Source Scorecard</h3><table><tr><th>Source</th><th>Lead Type</th><th>Priority</th><th>Leads</th><th>Contact %</th><th>Set %</th><th>Demo %</th><th>Sold</th><th>Spend</th><th>CAC</th><th>Decision</th></tr><tr><td>AllSeason Roof Quote</td><td>Owned website</td><td>P0</td><td>TBD</td><td>TBD</td><td>TBD</td><td>TBD</td><td>TBD</td><td>TBD</td><td>TBD</td><td>Scale/Fix/Cut</td></tr><tr><td>Fight The Power Meta</td><td>Paid social</td><td>P0/P1</td><td>TBD</td><td>TBD</td><td>TBD</td><td>TBD</td><td>TBD</td><td>TBD</td><td>TBD</td><td>Scale/Fix/Cut</td></tr><tr><td>Roofing Calculator</td><td>Vendor/shared</td><td>P0/P1</td><td>TBD</td><td>TBD</td><td>TBD</td><td>TBD</td><td>TBD</td><td>TBD</td><td>TBD</td><td>Scale/Fix/Cut</td></tr><tr><td>Nest Builders</td><td>Vendor/shared</td><td>P0/P1</td><td>TBD</td><td>TBD</td><td>TBD</td><td>TBD</td><td>TBD</td><td>TBD</td><td>TBD</td><td>Scale/Fix/Cut</td></tr><tr><td>LSA</td><td>Paid search/local</td><td>P0/P1</td><td>TBD</td><td>TBD</td><td>TBD</td><td>TBD</td><td>TBD</td><td>TBD</td><td>TBD</td><td>Scale/Fix/Cut</td></tr><tr><td>CallRail offline</td><td>Radio/print/truck/sign</td><td>P1/P2</td><td>TBD</td><td>TBD</td><td>TBD</td><td>TBD</td><td>TBD</td><td>TBD</td><td>TBD</td><td>Scale/Fix/Cut</td></tr></table><h3>Lead Handling SLA</h3><table><tr><th>Lead Type</th><th>First Touch Target</th><th>Required Handling</th><th>Escalation</th></tr><tr><td>Owned roof quote</td><td>0-5 minutes</td><td>Preview call + SMS + voicemail if no answer</td><td>Manager alert if untouched after 10 minutes</td></tr><tr><td>Fight The Power Meta P0</td><td>0-5 minutes</td><td>SMS + preview call + source-specific opener</td><td>Manager alert if untouched after 10 minutes</td></tr><tr><td>Vendor high intent</td><td>0-5 minutes</td><td>Source-specific opener based on vendor path</td><td>Manager alert if untouched after 15 minutes</td></tr><tr><td>LSA call/form</td><td>Immediate / same business hour</td><td>Call back, dispute invalid leads, log outcome</td><td>Review invalid lead disputes weekly</td></tr><tr><td>Aged/recycled</td><td>Same day</td><td>Lower-pressure sequence</td><td>No P0 escalation</td></tr></table><h3>Quote Funnel Scorecard</h3><table><tr><th>Step</th><th>Event</th><th>Question</th><th>Count</th><th>Conversion</th></tr><tr><td>Quote start</td><td><code>quote_started</code></td><td>Is the CTA pulling interest?</td><td>TBD</td><td>100%</td></tr><tr><td>ZIP checked</td><td><code>zip_checked</code></td><td>Are visitors inside service area?</td><td>TBD</td><td>TBD</td></tr><tr><td>Roof details completed</td><td><code>quote_step_completed</code></td><td>Are homeowners giving useful context?</td><td>TBD</td><td>TBD</td></tr><tr><td>Contact submitted</td><td><code>contact_submitted</code></td><td>Are they willing to identify themselves?</td><td>TBD</td><td>TBD</td></tr><tr><td>Estimate shown</td><td><code>estimate_shown</code></td><td>Did they finish the flow?</td><td>TBD</td><td>TBD</td></tr><tr><td>Lead accepted</td><td>Supabase <code>lead-intake</code> accepted</td><td>Did the backend route correctly?</td><td>TBD</td><td>TBD</td></tr><tr><td>Appointment set</td><td>CRM disposition</td><td>Did the quote create a sales conversation?</td><td>TBD</td><td>TBD</td></tr></table><h3>Campaign Scorecard: Fight The Power</h3><table><tr><th>Metric</th><th>Month 1</th><th>Month 2</th><th>Month 3</th><th>Notes</th></tr><tr><td>Spend</td><td>TBD</td><td>TBD</td><td>TBD</td><td>Meta spend only</td></tr><tr><td>Landing page visits</td><td>TBD</td><td>TBD</td><td>TBD</td><td>From campaign UTM</td></tr><tr><td>Form starts</td><td>TBD</td><td>TBD</td><td>TBD</td><td>Intent signal</td></tr><tr><td>Completed forms</td><td>TBD</td><td>TBD</td><td>TBD</td><td>Lead count</td></tr><tr><td>P0 qualified leads</td><td>TBD</td><td>TBD</td><td>TBD</td><td>Owns home, $150+ bill, valid ZIP, consent</td></tr><tr><td>Contact rate</td><td>TBD</td><td>TBD</td><td>TBD</td><td>Measures handling</td></tr><tr><td>Appointment set rate</td><td>TBD</td><td>TBD</td><td>TBD</td><td>Measures script/offer</td></tr><tr><td>Demo/sit rate</td><td>TBD</td><td>TBD</td><td>TBD</td><td>Measures quality</td></tr><tr><td>Sold jobs</td><td>TBD</td><td>TBD</td><td>TBD</td><td>Measures revenue</td></tr><tr><td>CAC</td><td>TBD</td><td>TBD</td><td>TBD</td><td>Measures scale decision</td></tr></table><h3>Month-By-Month Operating Focus</h3><h4>Month 1: Instrument and Prove Flow</h4><p>Focus:</p><ul><li>confirm tracking fires correctly;</li><li>verify all P0 leads route correctly;</li><li>watch speed-to-lead;</li><li>identify quote flow drop-offs;</li><li>confirm scripts match source context.</li></ul><p>Owner decision:</p><pre>Is the machine capturing and routing demand correctly?</pre><h4>Month 2: Repair Conversion</h4><p>Focus:</p><ul><li>adjust landing copy and forms;</li><li>tighten day-zero sequence;</li><li>improve rep opener based on objections;</li><li>identify low-quality sources early;</li><li>add proof/warranty elements where prospects stall.</li></ul><p>Owner decision:</p><pre>Which bottleneck is costing the most money?</pre><h4>Month 3: Scale, Fix, Or Cut</h4><p>Focus:</p><ul><li>compare source economics;</li><li>recommend spend shifts;</li><li>decide whether to expand Meta creative, LSA management, or owned quote traffic;</li><li>decide whether dialer/CRM limitations now justify a tool change.</li></ul><p>Owner decision:</p><pre>What gets more money, what gets fixed, and what stops?</pre><h3>First 90-Day Success Definition</h3><p>The first 90 days should be considered successful if:</p><ul><li>owned website leads are captured with clean attribution;</li><li>completed roof quotes route to P0 correctly;</li><li>reps have source-specific context before calling;</li><li>speed-to-lead is visible;</li><li>source performance can be reviewed by contact, set, demo, sold, and CAC;</li><li>Chris has enough clarity to make better spend decisions.</li></ul><p>The first 90 days do not need to prove every channel. They need to prove that AllSeason now has a system for deciding what deserves scale.</p></article>
+<article class="doc"><span class="section-label">OPTION A PRODUCTION PROOF LOG</span><h2>Option A Production Proof Log</h2><h3>Purpose</h3><p>This log records the production-proof checks completed for the Option A package so Chris can see the system is more than a website mockup.</p><h3>Current Production URLs</h3><table><tr><th>Item</th><th>URL</th></tr><tr><td>Public site</td><td><code>https://all-season-webpage.vercel.app</code></td></tr><tr><td>Roof quote route</td><td><code>https://all-season-webpage.vercel.app/roof-quote</code></td></tr><tr><td>Fight The Power route</td><td><code>https://all-season-webpage.vercel.app/meta/fight-the-power</code></td></tr><tr><td>Roof quote API</td><td><code>https://all-season-webpage.vercel.app/api/roof-quote</code></td></tr><tr><td>Fight The Power API</td><td><code>https://all-season-webpage.vercel.app/api/solar-savings</code></td></tr></table><h3>Verification Summary</h3><table><tr><th>Check</th><th>Status</th><th>Notes</th></tr><tr><td>Next.js tests</td><td>Passed</td><td><code>4</code> test files, <code>10</code> tests passed after adding Fight The Power intake.</td></tr><tr><td>Next.js build</td><td>Passed</td><td>Production build includes <code>/api/roof-quote</code>, <code>/api/solar-savings</code>, and <code>/api/website-event</code>.</td></tr><tr><td>RevOps hub tests</td><td>Passed</td><td><code>2</code> test files, <code>9</code> tests passed after adding Fight The Power P0 routing.</td></tr><tr><td>Supabase Edge Function deploy</td><td>Passed</td><td><code>lead-intake</code> deployed to version <code>3</code> with <code>verify_jwt: false</code>.</td></tr><tr><td>Live roof quote lead</td><td>Passed</td><td>Production request created accepted <code>P0</code> roofing lead.</td></tr><tr><td>Live Fight The Power lead</td><td>Passed</td><td>Production request created accepted <code>P0</code> solar lead.</td></tr><tr><td>Website event persistence</td><td>Blocked</td><td>Vercel is missing <code>SUPABASE_SERVICE_ROLE_KEY</code>, so <code>/api/website-event</code> returns <code>stored:false</code>.</td></tr></table><h3>Live Roof Quote Test</h3><table><tr><th>Field</th><th>Value</th></tr><tr><td>Test email</td><td><code>production-test+1781630677@2stacksystems.com</code></td></tr><tr><td>Session ID</td><td><code>c80c8a90-cb9f-4505-8968-6093438ae414</code></td></tr><tr><td>Lead ID</td><td><code>6bb749f5-fa65-4a72-88e4-29b16ac423f3</code></td></tr><tr><td>Priority</td><td><code>P0</code></td></tr><tr><td>Route</td><td><code>roofing_preview_queue</code></td></tr><tr><td>Sequence</td><td><code>roofing_day0_high_intent</code></td></tr><tr><td>Script</td><td><code>roof_quote_widget_opener</code></td></tr><tr><td>Decision reason</td><td><code>owned_roof_quote_roofing</code></td></tr></table><h3>Live Fight The Power Test</h3><table><tr><th>Field</th><th>Value</th></tr><tr><td>Test email</td><td><code>fight-power-test+1781630952@2stacksystems.com</code></td></tr><tr><td>Session ID</td><td><code>52e513a2-19b7-4521-a6ad-42e35a015a14</code></td></tr><tr><td>Lead ID</td><td><code>0293c254-43ad-47ed-87c6-2fdc3b7ed6d4</code></td></tr><tr><td>Priority</td><td><code>P0</code></td></tr><tr><td>Route</td><td><code>solar_preview_queue</code></td></tr><tr><td>Sequence</td><td><code>solar_day0_high_intent</code></td></tr><tr><td>Script</td><td><code>fight_the_power_opener</code></td></tr><tr><td>Decision reason</td><td><code>meta_fight_power_solar_qualified</code></td></tr></table><h3>Remaining Production Blocker</h3><p>Add this Vercel environment variable to Production and Development:</p><pre>SUPABASE_SERVICE_ROLE_KEY</pre><p>The only local candidate key failed a read-only Supabase REST auth check with <code>401</code>, so it was not added to Vercel.</p><p>Once the real key is added, rerun:</p><ol><li>Submit <code>/api/roof-quote</code>.</li><li>Confirm <code>quote_sessions</code> has the session row.</li><li>Confirm <code>quote_estimates</code> has the estimate row.</li><li>Confirm <code>website_events</code> has <code>estimate_shown</code>.</li><li>Submit <code>/api/website-event</code> directly and confirm it returns <code>stored:true</code>.</li></ol><h3>Operator Readout</h3><p>The owned acquisition loop is now production-proven for lead creation and routing. The remaining gap is event/session persistence, which is an environment secret issue rather than an application logic issue.</p></article>
+<article class="doc"><span class="section-label">CHRIS CLOSE CALL TALK TRACK</span><h2>Chris Close-Call Talk Track</h2><h3>Goal Of The Call</h3><p>Get Chris to agree that Option A is the right first move:</p><pre>$5,000 buildout + $3,000/month operating retainer</pre><p>The call should feel operator-to-operator. Avoid selling &quot;marketing services.&quot; Sell control, speed, margin protection, and a cleaner path back toward a valuable company.</p><h3>Opening</h3><pre>Chris, the way I would frame this is simple: you do not need another disconnected marketing vendor. You need the first version of an owned revenue system that makes your spend accountable before you scale it again.</pre><pre>The website is part of that, but it is not the whole offer. The real offer is the machine between demand and sold jobs: capture the lead, preserve the context, route it correctly, give the rep the right opener, and show you which sources deserve money.</pre><h3>Confirm The Economic Pain</h3><p>Ask:</p><pre>Is this still the right operating rule for roofing: if a $12K roof starts carrying a $3K job cost, it does not work?</pre><p>Then:</p><pre>That is why I do not want to pitch you more lead volume first. Volume without control just gives you a bigger version of the same problem.</pre><h3>Position Option A</h3><pre>Option A is the version where we build the owned asset and stay in the seat long enough to operate it.</pre><pre>The $5K gets the system built: the rebrand-ready website, the roof quote engine, the server-side lead intake, the source tracking, and the first campaign route.</pre><pre>The $3K/month is not maintenance. That is us operating the revenue layer: tightening the quote flow, scripts, routing, landing pages, reporting, and the monthly decisions on what to scale, fix, or cut.</pre><h3>Why Not Build-Only</h3><pre>We can do build-only, but I do not think that is the best business move here.</pre><pre>The value is not just launching a site. The value is the first 90 days after launch, when we learn which sources contact, which ones set, which ones demo, and which ones produce jobs at a cost that makes sense.</pre><pre>If we build it and walk away, you have a better asset. If we build it and operate it, you have a cleaner revenue system.</pre><h3>Why Not Tool Replacement First</h3><pre>I would not start by ripping out LeadMaster, Hatch, CallTools, or whatever dialer you choose.</pre><pre>You already have pieces that can work. The failure point is the handoff. High-intent leads need to come in with context, get routed to the right queue, and be handled like someone who just raised their hand, not someone on a cold list.</pre><pre>Once that layer is working, we will know which tool limitations are real and which ones were process problems.</pre><h3>Core Proof Points To Emphasize</h3><ul><li>Chris already knows shared leads are expensive and price-competitive.</li><li>The old in-house handling benchmark was strong: roughly 70% contact and 45% set on high-intent web leads.</li><li>Roofing CAC has to be managed by sold job, not CPL.</li><li>Solar lease commoditization makes trust, roof expertise, and follow-up more important.</li><li>A rebrand-ready owned website increases enterprise value more than another rented lead source.</li></ul><h3>The Ask</h3><pre>My recommendation is Option A: $5K to build it, $3K/month to operate it, and we judge the first 90 days on owner-level numbers.</pre><pre>If after the first 90-day cycle the system is not earning its keep, the break clause is clean: either side can end the retainer with 30 days notice.</pre><pre>If it is working, then we keep tightening the machine and start putting more money behind the sources that prove they can produce profitable jobs.</pre><h3>Close Question</h3><pre>Are you comfortable starting with Option A and making the first 90 days about proof?</pre><p>If yes:</p><pre>Great. The next step is kickoff. We will send the access checklist, lock the source map, and start the build sprint.</pre><p>If hesitation:</p><pre>Makes sense. Is the concern the buildout, the monthly operating piece, or whether the first 90 days will show enough to justify it?</pre><h3>Objection Handling</h3><h4>&quot;Why not just build the site?&quot;</h4><pre>We can. That is Option B. But the problem you described is not only a site problem. It is source quality, first-touch handling, and attribution. Build-only gives you the asset. Option A gives you the asset plus the operating discipline to prove what it is worth.</pre><h4>&quot;We already have a CRM and follow-up tools.&quot;</h4><pre>Good. I am not trying to replace them first. I am trying to make the lead context cleaner before it hits those tools, and make the outcome reporting cleaner after the team works it.</pre><h4>&quot;Can you guarantee leads or sales?&quot;</h4><pre>No one should guarantee that honestly. Platform cost, market behavior, and rep execution are real variables. What we guarantee is the build, the routing logic, the tracking visibility, and the operating cadence. You will know what happened and what decision to make next.</pre><h4>&quot;Why pay monthly?&quot;</h4><pre>Because the first version will not be the final answer. The money is made in the weekly tightening: which ad angle works, which form step drops people, which source sets, which script gets replies, which lead source should get cut.</pre><h4>&quot;What happens if it does not work?&quot;</h4><pre>After the first 90-day operating cycle, either side can end the retainer with 30 days notice. That gives the system enough time to prove something without locking you into a long-term commitment.</pre></article>
+<article class="doc"><span class="section-label">FOLLOW UP EMAIL TO CHRIS</span><h2>Follow-Up Email To Chris</h2><h3>Subject Options</h3><pre>Option A: owned acquisition system + 90-day proof cycle</pre><pre>AllSeason next step: build the asset, then operate the first 90 days</pre><pre>The revenue system we recommend starting with</pre><h3>Email</h3><pre>Chris,
+
+Appreciate the time and the direct conversation.
+
+The main thing we took from the call is that this should not be treated as a normal website or marketing project. You already know how to buy leads. The issue is making sure the money you spend creates owned demand, gets handled correctly, and shows you which sources actually produce profitable jobs.
+
+Our recommendation is Option A:
+
+- $5,000 buildout
+- $3,000/month operating retainer
+- 90-day proof cycle
+
+That includes the rebrand-ready website, native roof quote engine, secure lead intake, source-specific routing, the first Meta campaign path, day-zero scripting, and the monthly owner scorecard.
+
+The reason we recommend Option A over build-only is simple: the value is not just launching the asset. The value is operating it for the first 90 days so we can see what contacts, what sets, what demos, what sells, and what should be scaled, fixed, or cut.
+
+The break clause is clean. After the first 90-day operating cycle, either side can end the monthly retainer with 30 days notice.
+
+If you are comfortable with that direction, the next step is kickoff. We will send the access checklist, confirm the source map, and start the build sprint.
+
+Best,
+
+Joe + Chris
+2Stack</pre><h3>Short Text Follow-Up</h3><pre>Chris, sending over the Option A recap now. The short version: $5K buildout + $3K/mo to build the owned acquisition system and operate the first 90-day proof cycle. The goal is source-to-CAC clarity, not just a prettier site.</pre></article>
+<article class="doc"><span class="section-label">INTERNAL CLOSE CHECKLIST</span><h2>Internal Close Checklist</h2><h3>Before The Pitch</h3><ul><li>[ ] Use latest deck: <code>allseason-owner-pitch-v3.pptx</code></li><li>[ ] Confirm whether buyer in meeting is Chris, Yuna, or both.</li><li>[ ] Confirm 2Stack speaker roles:</li><li>Joe: business/economics, roofing context, close.</li><li>Chris: website, technical system, creative, implementation.</li><li>[ ] Have Option A One-Page SOW ready.</li><li>[ ] Have 90-Day Owner Scorecard ready.</li><li>[ ] Have follow-up email drafted.</li></ul><h3>Discovery Points To Reconfirm</h3><ul><li>[ ] Current monthly lead spend by source.</li><li>[ ] Current roof lead cost and sold-job CAC.</li><li>[ ] Current contact rate and appointment set rate.</li><li>[ ] Current response time for owned/vendor web leads.</li><li>[ ] LeadMaster field/API constraints.</li><li>[ ] Dialer shortlist and current CallTools setup.</li><li>[ ] Hatch reliability concerns and current campaigns.</li><li>[ ] CallRail numbers and offline attribution setup.</li><li>[ ] Website domain plan for <code>.net</code>, <code>.com</code>, and future rebrand.</li></ul><h3>Close Questions</h3><p>Ask these before presenting price:</p><pre>Do you agree the first fix is control over the lead-to-sale path, not just more lead volume?</pre><pre>Do you want the website treated as an owned acquisition asset instead of a brochure?</pre><pre>If we can show source-to-contact-to-set-to-sale clearly, is that the kind of system you would put more money behind?</pre><h3>Option A Close</h3><pre>Our recommendation is Option A: $5,000 to build the owned system, $3,000/month to operate the first 90-day proof cycle.</pre><pre>We are not asking you to commit forever. After the first 90 days, either side can end the retainer with 30 days notice.</pre><pre>The first 90 days are about proof: what gets contacted, what gets set, what demos, what sells, and what should be scaled, fixed, or cut.</pre><h3>Red Lines</h3><p>Do not promise:</p><ul><li>guaranteed lead volume;</li><li>guaranteed CPL;</li><li>guaranteed closed jobs;</li><li>guaranteed Google/Meta ad costs;</li><li>warranty/legal claims without review;</li><li>immediate CRM replacement;</li><li>full rebrand execution inside Option A unless separately scoped.</li></ul><p>Do promise:</p><ul><li>clear build scope;</li><li>secure server-side intake;</li><li>P0 routing for owned quote leads;</li><li>source-specific scripts;</li><li>tracking events;</li><li>monthly owner scorecard;</li><li>transparent recommendations.</li></ul><h3>Access Checklist After Yes</h3><ul><li>[ ] Domain/DNS access.</li><li>[ ] Hosting/Vercel access or approval to create project.</li><li>[ ] Supabase project access and intake key handling.</li><li>[ ] CallRail access.</li><li>[ ] LeadMaster field map/API docs or admin access.</li><li>[ ] Current dialer/Hatch access for audit.</li><li>[ ] Meta Business Manager access.</li><li>[ ] Google Ads/LSA access if included in operating cycle.</li><li>[ ] Brand assets and logo files.</li><li>[ ] Warranty/legal copy source of truth.</li><li>[ ] Service area ZIP list.</li><li>[ ] Roofing price/modifier assumptions.</li><li>[ ] Sales disposition definitions.</li></ul><h3>First 72 Hours After Close</h3><table><tr><th>Timeframe</th><th>Action</th></tr><tr><td>Day 0</td><td>Send kickoff email, invoice/payment link, access checklist</td></tr><tr><td>Day 1</td><td>Source map and tracking plan</td></tr><tr><td>Day 2</td><td>Website content lock and quote engine assumptions</td></tr><tr><td>Day 3</td><td>Build sprint starts</td></tr></table></article>
+  <p class="footer-note">Prepared by 2Stack. This package is intended as an operator-facing close and implementation handoff, not legal advice.</p>
+</body>
+</html>

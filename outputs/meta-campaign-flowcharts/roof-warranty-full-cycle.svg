@@ -1,0 +1,403 @@
+<svg id="meta-campaign-roof-warranty" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1540 1025" role="img" aria-labelledby="title desc">
+<title id="title">2Stack Meta Campaign Full Cycle Chart</title>
+<desc id="desc">Full-cycle revenue-engine chart for ROOF WARRANTY.</desc>
+
+  <defs>
+    <linearGradient id="campaignGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3f5ca5"/>
+      <stop offset="0.22" stop-color="#5195cf"/>
+      <stop offset="0.46" stop-color="#4393a2"/>
+      <stop offset="0.7" stop-color="#4ea793"/>
+      <stop offset="1" stop-color="#96c355"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4393a2"/>
+      <stop offset="1" stop-color="#96c355"/>
+    </linearGradient>
+    <pattern id="bgGrid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#d9e3ec" stroke-width="1"/>
+    </pattern>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="11" flood-color="#10243f" flood-opacity="0.11"/>
+    </filter>
+    <filter id="chipShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#10243f" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+<rect width="1540" height="1025" fill="#f7f9fb"/>
+<rect x="0" y="0" width="1540" height="1025" fill="url(#bgGrid)" opacity="0.35"/>
+
+  <g transform="translate(48 54)">
+    <g aria-label="2Stack logo">
+      <path d="M0 15 34 2l34 13v48L34 76 0 63Z" fill="#02060b"/>
+      <path d="M17 25 34 19l17 6v7L34 26l-17 6Z" fill="#f7f9fb"/>
+      <path d="M17 43 34 37l17 6-17 7Z" fill="#f7f9fb"/>
+      <path d="M17 55 34 61l17-6v8L34 69 17 63Z" fill="#f7f9fb"/>
+    </g>
+    <text x="86" y="50" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="800" fill="#02060b">2Stack</text>
+  </g>
+  <g transform="translate(390 54)">
+    <text x="0" y="48" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="900" fill="#02060b">ROOF WARRANTY</text>
+    <text x="0" y="90" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing="1.6" fill="#10243f">META FULL CYCLE | PROTECTION-LED ROOFING QUOTE FUNNEL</text>
+  </g>
+  <g transform="translate(1188 58)">
+    <rect x="0" y="0" width="300" height="72" rx="14" fill="#ffffff" stroke="#d6e0ea"/>
+    <text x="22" y="29" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="800" fill="#6a7480">LANDING ROUTE</text>
+    <text x="22" y="54" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="850" fill="#10243f">/meta/roof-warranty</text>
+  </g>
+
+  <g transform="translate(32 168)" filter="url(#chipShadow)">
+
+      <polygon points="0,0 136,0 164,29 136,58 0,58 28,29" fill="#3f5ca5" stroke="#ffffff" stroke-width="1.4"/>
+      <circle cx="44" cy="29" r="20" fill="#ffffff" opacity="0.92"/>
+      <text x="44" y="35" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="900" fill="#10243f">1</text>
+      <text x="76" y="34" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="850" fill="#ffffff">Ad</text>
+
+      <polygon points="160,0 296,0 324,29 296,58 160,58 188,29" fill="#5195cf" stroke="#ffffff" stroke-width="1.4"/>
+      <circle cx="204" cy="29" r="20" fill="#ffffff" opacity="0.92"/>
+      <text x="204" y="35" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="900" fill="#10243f">2</text>
+      <text x="236" y="34" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="850" fill="#ffffff">Click</text>
+
+      <polygon points="320,0 456,0 484,29 456,58 320,58 348,29" fill="#4393a2" stroke="#ffffff" stroke-width="1.4"/>
+      <circle cx="364" cy="29" r="20" fill="#ffffff" opacity="0.92"/>
+      <text x="364" y="35" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="900" fill="#10243f">3</text>
+      <text x="396" y="34" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="850" fill="#ffffff">Landing</text>
+
+      <polygon points="480,0 616,0 644,29 616,58 480,58 508,29" fill="#4ea793" stroke="#ffffff" stroke-width="1.4"/>
+      <circle cx="524" cy="29" r="20" fill="#ffffff" opacity="0.92"/>
+      <text x="524" y="35" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="900" fill="#10243f">4</text>
+      <text x="556" y="34" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="850" fill="#ffffff">Form</text>
+
+      <polygon points="640,0 776,0 804,29 776,58 640,58 668,29" fill="#96c355" stroke="#ffffff" stroke-width="1.4"/>
+      <circle cx="684" cy="29" r="20" fill="#ffffff" opacity="0.92"/>
+      <text x="684" y="35" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="900" fill="#10243f">5</text>
+      <text x="716" y="34" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="850" fill="#ffffff">Intake</text>
+
+      <polygon points="800,0 936,0 964,29 936,58 800,58 828,29" fill="#add081" stroke="#ffffff" stroke-width="1.4"/>
+      <circle cx="844" cy="29" r="20" fill="#ffffff" opacity="0.92"/>
+      <text x="844" y="35" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="900" fill="#10243f">6</text>
+      <text x="876" y="34" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="850" fill="#ffffff">Call</text>
+
+      <polygon points="960,0 1096,0 1124,29 1096,58 960,58 988,29" fill="#b4d38f" stroke="#ffffff" stroke-width="1.4"/>
+      <circle cx="1004" cy="29" r="20" fill="#ffffff" opacity="0.92"/>
+      <text x="1004" y="35" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="900" fill="#10243f">7</text>
+      <text x="1036" y="34" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="850" fill="#ffffff">Appt</text>
+
+      <polygon points="1120,0 1256,0 1284,29 1256,58 1120,58 1148,29" fill="#c8dea9" stroke="#ffffff" stroke-width="1.4"/>
+      <circle cx="1164" cy="29" r="20" fill="#ffffff" opacity="0.92"/>
+      <text x="1164" y="35" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="900" fill="#10243f">8</text>
+      <text x="1196" y="34" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="850" fill="#ffffff">Quote</text>
+
+      <polygon points="1280,0 1444,0 1444,58 1280,58 1308,29" fill="#d9e8c5" stroke="#ffffff" stroke-width="1.4"/>
+      <circle cx="1324" cy="29" r="20" fill="#ffffff" opacity="0.92"/>
+      <text x="1324" y="35" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="900" fill="#10243f">9</text>
+      <text x="1356" y="34" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="850" fill="#ffffff">Revenue</text>
+  </g>
+
+  <g transform="translate(30 280)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="232" height="565" rx="15" fill="#ffffff" stroke="#3f5ca5" stroke-width="1.5"/>
+    <path d="M0 15Q0 0 15 0H217Q232 0 232 15V82H0Z" fill="#3f5ca5"/>
+    <circle cx="35" cy="40" r="22" fill="#ffffff"/>
+    <text x="35" y="48" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="900" fill="#3f5ca5">1</text>
+    <text x="72" y="33" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="900" fill="#ffffff">AD HOOK</text>
+    <text x="72" y="56" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="900" fill="#ffffff">&amp; AUDIENCE</text>
+
+    <g transform="translate(14 102)">
+      <rect x="0" y="0" width="204" height="97" rx="9" fill="#f8fbfd" stroke="#dce6ee"/>
+      <circle cx="18" cy="22" r="8" fill="#3f5ca5" opacity="0.88"/>
+      <text x="34" y="26" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="900" fill="#10243f">Creative Hook</text>
+      <text x="18" y="50" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">The roof above</text>
+<text x="18" y="66" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">everything that matters.</text>
+<text x="18" y="82" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">Your family. Protected.</text>
+    </g>
+
+    <g transform="translate(14 211)">
+      <rect x="0" y="0" width="204" height="97" rx="9" fill="#ffffff" stroke="#dce6ee"/>
+      <circle cx="18" cy="22" r="8" fill="#3f5ca5" opacity="0.88"/>
+      <text x="34" y="26" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="900" fill="#10243f">Target Homeowner</text>
+      <text x="18" y="50" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">Premium homeowners</text>
+<text x="18" y="66" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">comparing trust, warranty,</text>
+<text x="18" y="82" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">installer quality, and value.</text>
+    </g>
+
+    <g transform="translate(14 320)">
+      <rect x="0" y="0" width="204" height="82" rx="9" fill="#f8fbfd" stroke="#dce6ee"/>
+      <circle cx="18" cy="22" r="8" fill="#3f5ca5" opacity="0.88"/>
+      <text x="34" y="26" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="900" fill="#10243f">Primary CTA</text>
+      <text x="18" y="50" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">Get free quote</text>
+    </g>
+
+    <g transform="translate(14 414)">
+      <rect x="0" y="0" width="204" height="97" rx="9" fill="#ffffff" stroke="#dce6ee"/>
+      <circle cx="18" cy="22" r="8" fill="#3f5ca5" opacity="0.88"/>
+      <text x="34" y="26" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="900" fill="#10243f">Test Lens</text>
+      <text x="18" y="50" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">Hook strength</text>
+<text x="18" y="66" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">visual trust</text>
+<text x="18" y="82" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">qualified click quality</text>
+    </g>
+  </g>
+
+  <g transform="translate(283 280)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="232" height="565" rx="15" fill="#ffffff" stroke="#5195cf" stroke-width="1.5"/>
+    <path d="M0 15Q0 0 15 0H217Q232 0 232 15V82H0Z" fill="#5195cf"/>
+    <circle cx="35" cy="40" r="22" fill="#ffffff"/>
+    <text x="35" y="48" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="900" fill="#5195cf">2</text>
+    <text x="72" y="33" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="900" fill="#ffffff">LANDING PAGE</text>
+    <text x="72" y="56" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="900" fill="#ffffff">&amp; FORM</text>
+
+    <g transform="translate(14 102)">
+      <rect x="0" y="0" width="204" height="82" rx="9" fill="#f8fbfd" stroke="#dce6ee"/>
+      <circle cx="18" cy="22" r="8" fill="#5195cf" opacity="0.88"/>
+      <text x="34" y="26" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="900" fill="#10243f">Route</text>
+      <text x="18" y="50" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">/meta/roof-warranty</text>
+    </g>
+
+    <g transform="translate(14 196)">
+      <rect x="0" y="0" width="204" height="97" rx="9" fill="#ffffff" stroke="#dce6ee"/>
+      <circle cx="18" cy="22" r="8" fill="#5195cf" opacity="0.88"/>
+      <text x="34" y="26" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="900" fill="#10243f">Captured Fields</text>
+      <text x="18" y="50" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">Name, ZIP, roof age,</text>
+<text x="18" y="66" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">main concern, timing,</text>
+<text x="18" y="82" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">contact preference.</text>
+    </g>
+
+    <g transform="translate(14 305)">
+      <rect x="0" y="0" width="204" height="97" rx="9" fill="#f8fbfd" stroke="#dce6ee"/>
+      <circle cx="18" cy="22" r="8" fill="#5195cf" opacity="0.88"/>
+      <text x="34" y="26" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="900" fill="#10243f">Consent + Events</text>
+      <text x="18" y="50" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">TCPA/channel consent</text>
+<text x="18" y="66" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">contact_submitted</text>
+<text x="18" y="82" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">form_submitted</text>
+    </g>
+
+    <g transform="translate(14 414)">
+      <rect x="0" y="0" width="204" height="82" rx="9" fill="#ffffff" stroke="#dce6ee"/>
+      <circle cx="18" cy="22" r="8" fill="#5195cf" opacity="0.88"/>
+      <text x="34" y="26" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="900" fill="#10243f">Friction Rule</text>
+      <text x="18" y="50" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">Ask only for what</text>
+<text x="18" y="66" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">sales needs on first touch.</text>
+    </g>
+  </g>
+
+  <g transform="translate(536 280)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="232" height="565" rx="15" fill="#ffffff" stroke="#4393a2" stroke-width="1.5"/>
+    <path d="M0 15Q0 0 15 0H217Q232 0 232 15V82H0Z" fill="#4393a2"/>
+    <circle cx="35" cy="40" r="22" fill="#ffffff"/>
+    <text x="35" y="48" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="900" fill="#4393a2">3</text>
+    <text x="72" y="33" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="900" fill="#ffffff">LEAD INTAKE</text>
+    <text x="72" y="56" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="900" fill="#ffffff">&amp; ROUTING</text>
+
+    <g transform="translate(14 102)">
+      <rect x="0" y="0" width="204" height="82" rx="9" fill="#f8fbfd" stroke="#dce6ee"/>
+      <circle cx="18" cy="22" r="8" fill="#4393a2" opacity="0.88"/>
+      <text x="34" y="26" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="900" fill="#10243f">Source</text>
+      <text x="18" y="50" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">AllSeason Meta</text>
+<text x="18" y="66" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">Lifetime Warranty</text>
+    </g>
+
+    <g transform="translate(14 196)">
+      <rect x="0" y="0" width="204" height="97" rx="9" fill="#ffffff" stroke="#dce6ee"/>
+      <circle cx="18" cy="22" r="8" fill="#4393a2" opacity="0.88"/>
+      <text x="34" y="26" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="900" fill="#10243f">P0 Trigger</text>
+      <text x="18" y="50" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">Warranty comparison,</text>
+<text x="18" y="66" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">15+ roof age, leak/storm,</text>
+<text x="18" y="82" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">valid phone + consent.</text>
+    </g>
+
+    <g transform="translate(14 305)">
+      <rect x="0" y="0" width="204" height="82" rx="9" fill="#f8fbfd" stroke="#dce6ee"/>
+      <circle cx="18" cy="22" r="8" fill="#4393a2" opacity="0.88"/>
+      <text x="34" y="26" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="900" fill="#10243f">Queue</text>
+      <text x="18" y="50" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">roofing_preview_queue</text>
+    </g>
+
+    <g transform="translate(14 399)">
+      <rect x="0" y="0" width="204" height="82" rx="9" fill="#ffffff" stroke="#dce6ee"/>
+      <circle cx="18" cy="22" r="8" fill="#4393a2" opacity="0.88"/>
+      <text x="34" y="26" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="900" fill="#10243f">Script ID</text>
+      <text x="18" y="50" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">lifetime_warranty_roofing_opener</text>
+    </g>
+  </g>
+
+  <g transform="translate(789 280)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="232" height="565" rx="15" fill="#ffffff" stroke="#4ea793" stroke-width="1.5"/>
+    <path d="M0 15Q0 0 15 0H217Q232 0 232 15V82H0Z" fill="#4ea793"/>
+    <circle cx="35" cy="40" r="22" fill="#ffffff"/>
+    <text x="35" y="48" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="900" fill="#4ea793">4</text>
+    <text x="72" y="33" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="900" fill="#ffffff">DAY 0</text>
+    <text x="72" y="56" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="900" fill="#ffffff">FOLLOW-UP</text>
+
+    <g transform="translate(14 102)">
+      <rect x="0" y="0" width="204" height="82" rx="9" fill="#f8fbfd" stroke="#dce6ee"/>
+      <circle cx="18" cy="22" r="8" fill="#4ea793" opacity="0.88"/>
+      <text x="34" y="26" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="900" fill="#10243f">0-30 sec</text>
+      <text x="18" y="50" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">Immediate SMS</text>
+<text x="18" y="66" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">source hook included</text>
+    </g>
+
+    <g transform="translate(14 196)">
+      <rect x="0" y="0" width="204" height="82" rx="9" fill="#ffffff" stroke="#dce6ee"/>
+      <circle cx="18" cy="22" r="8" fill="#4ea793" opacity="0.88"/>
+      <text x="34" y="26" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="900" fill="#10243f">0-60 sec</text>
+      <text x="18" y="50" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">Preview call</text>
+<text x="18" y="66" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">then voicemail if missed</text>
+    </g>
+
+    <g transform="translate(14 290)">
+      <rect x="0" y="0" width="204" height="82" rx="9" fill="#f8fbfd" stroke="#dce6ee"/>
+      <circle cx="18" cy="22" r="8" fill="#4ea793" opacity="0.88"/>
+      <text x="34" y="26" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="900" fill="#10243f">2-5 min</text>
+      <text x="18" y="50" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">Context email</text>
+<text x="18" y="66" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">with exact ad promise</text>
+    </g>
+
+    <g transform="translate(14 384)">
+      <rect x="0" y="0" width="204" height="97" rx="9" fill="#ffffff" stroke="#dce6ee"/>
+      <circle cx="18" cy="22" r="8" fill="#4ea793" opacity="0.88"/>
+      <text x="34" y="26" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="900" fill="#10243f">Opener</text>
+      <text x="18" y="50" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">You came through the</text>
+<text x="18" y="66" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">warranty page, so I want</text>
+<text x="18" y="82" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">to compare system and protection.</text>
+    </g>
+  </g>
+
+  <g transform="translate(1042 280)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="232" height="565" rx="15" fill="#ffffff" stroke="#96c355" stroke-width="1.5"/>
+    <path d="M0 15Q0 0 15 0H217Q232 0 232 15V82H0Z" fill="#96c355"/>
+    <circle cx="35" cy="40" r="22" fill="#ffffff"/>
+    <text x="35" y="48" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="900" fill="#96c355">5</text>
+    <text x="72" y="33" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="900" fill="#ffffff">APPOINTMENT</text>
+    <text x="72" y="56" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="900" fill="#ffffff">&amp; SALES CONTEXT</text>
+
+    <g transform="translate(14 102)">
+      <rect x="0" y="0" width="204" height="97" rx="9" fill="#f8fbfd" stroke="#dce6ee"/>
+      <circle cx="18" cy="22" r="8" fill="#96c355" opacity="0.88"/>
+      <text x="34" y="26" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="900" fill="#10243f">Rep Validates</text>
+      <text x="18" y="50" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">Roof condition,</text>
+<text x="18" y="66" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">warranty expectations,</text>
+<text x="18" y="82" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">quote timing + financing.</text>
+    </g>
+
+    <g transform="translate(14 211)">
+      <rect x="0" y="0" width="204" height="97" rx="9" fill="#ffffff" stroke="#dce6ee"/>
+      <circle cx="18" cy="22" r="8" fill="#96c355" opacity="0.88"/>
+      <text x="34" y="26" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="900" fill="#10243f">Next Step</text>
+      <text x="18" y="50" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">Good/better/best</text>
+<text x="18" y="66" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">roofing review with</text>
+<text x="18" y="82" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">warranty differences clear.</text>
+    </g>
+
+    <g transform="translate(14 320)">
+      <rect x="0" y="0" width="204" height="112" rx="9" fill="#f8fbfd" stroke="#dce6ee"/>
+      <circle cx="18" cy="22" r="8" fill="#96c355" opacity="0.88"/>
+      <text x="34" y="26" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="900" fill="#10243f">Disposition</text>
+      <text x="18" y="50" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">Booked</text>
+<text x="18" y="66" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">bad fit</text>
+<text x="18" y="82" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">nurture</text>
+<text x="18" y="98" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">call later</text>
+    </g>
+
+    <g transform="translate(14 444)">
+      <rect x="0" y="0" width="204" height="82" rx="9" fill="#ffffff" stroke="#dce6ee"/>
+      <circle cx="18" cy="22" r="8" fill="#96c355" opacity="0.88"/>
+      <text x="34" y="26" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="900" fill="#10243f">No Generic Pitch</text>
+      <text x="18" y="50" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">The ad hook leads</text>
+<text x="18" y="66" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">the first conversation.</text>
+    </g>
+  </g>
+
+  <g transform="translate(1295 280)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="232" height="565" rx="15" fill="#ffffff" stroke="#add081" stroke-width="1.5"/>
+    <path d="M0 15Q0 0 15 0H217Q232 0 232 15V82H0Z" fill="#add081"/>
+    <circle cx="35" cy="40" r="22" fill="#ffffff"/>
+    <text x="35" y="48" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="900" fill="#add081">6</text>
+    <text x="72" y="33" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="900" fill="#ffffff">SCORECARD</text>
+    <text x="72" y="56" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="900" fill="#ffffff">&amp; SCALE</text>
+
+    <g transform="translate(14 102)">
+      <rect x="0" y="0" width="204" height="112" rx="9" fill="#f8fbfd" stroke="#dce6ee"/>
+      <circle cx="18" cy="22" r="8" fill="#add081" opacity="0.88"/>
+      <text x="34" y="26" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="900" fill="#10243f">Daily Metrics</text>
+      <text x="18" y="50" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">Quote request rate</text>
+<text x="18" y="66" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">Warranty interest rate</text>
+<text x="18" y="82" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">Appointment booked CAC</text>
+<text x="18" y="98" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">Close rate by tier</text>
+    </g>
+
+    <g transform="translate(14 226)">
+      <rect x="0" y="0" width="204" height="97" rx="9" fill="#ffffff" stroke="#dce6ee"/>
+      <circle cx="18" cy="22" r="8" fill="#add081" opacity="0.88"/>
+      <text x="34" y="26" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="900" fill="#10243f">Cut Rule</text>
+      <text x="18" y="50" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">Pause low-trust creative</text>
+<text x="18" y="66" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">if appointments skew</text>
+<text x="18" y="82" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">price-only after 20 leads.</text>
+    </g>
+
+    <g transform="translate(14 335)">
+      <rect x="0" y="0" width="204" height="97" rx="9" fill="#f8fbfd" stroke="#dce6ee"/>
+      <circle cx="18" cy="22" r="8" fill="#add081" opacity="0.88"/>
+      <text x="34" y="26" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="900" fill="#10243f">Scale Rule</text>
+      <text x="18" y="50" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">Scale the angle with</text>
+<text x="18" y="66" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">highest gross-margin</text>
+<text x="18" y="82" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">roofing opportunity rate.</text>
+    </g>
+
+    <g transform="translate(14 444)">
+      <rect x="0" y="0" width="204" height="82" rx="9" fill="#ffffff" stroke="#dce6ee"/>
+      <circle cx="18" cy="22" r="8" fill="#add081" opacity="0.88"/>
+      <text x="34" y="26" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="900" fill="#10243f">Weekly Readout</text>
+      <text x="18" y="50" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">Spend, CAC, show rate,</text>
+<text x="18" y="66" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#263647">gross margin, creative fatigue.</text>
+    </g>
+  </g>
+
+  <g transform="translate(30 884)">
+    <rect x="0" y="0" width="1480" height="90" rx="18" fill="#ffffff" stroke="#dce6ee"/>
+    <text x="26" y="31" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="900" fill="#10243f">2STACK AI + OPS LAYER</text>
+
+    <g transform="translate(0 48)">
+      <circle cx="82.22222222222223" cy="0" r="5" fill="#3f5ca5"/>
+      <text x="82.22222222222223" y="26" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="750" fill="#263647">Ad Match Summary</text>
+    </g>
+
+    <g transform="translate(164.44444444444446 48)">
+      <circle cx="82.22222222222223" cy="0" r="5" fill="#5195cf"/>
+      <text x="82.22222222222223" y="26" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="750" fill="#263647">Source Context</text>
+    </g>
+
+    <g transform="translate(328.8888888888889 48)">
+      <circle cx="82.22222222222223" cy="0" r="5" fill="#4393a2"/>
+      <text x="82.22222222222223" y="26" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="750" fill="#263647">SLA Monitor</text>
+    </g>
+
+    <g transform="translate(493.33333333333337 48)">
+      <circle cx="82.22222222222223" cy="0" r="5" fill="#4ea793"/>
+      <text x="82.22222222222223" y="26" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="750" fill="#263647">Script Match</text>
+    </g>
+
+    <g transform="translate(657.7777777777778 48)">
+      <circle cx="82.22222222222223" cy="0" r="5" fill="#96c355"/>
+      <text x="82.22222222222223" y="26" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="750" fill="#263647">Lead Scoring</text>
+    </g>
+
+    <g transform="translate(822.2222222222223 48)">
+      <circle cx="82.22222222222223" cy="0" r="5" fill="#add081"/>
+      <text x="82.22222222222223" y="26" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="750" fill="#263647">Appointment Notes</text>
+    </g>
+
+    <g transform="translate(986.6666666666667 48)">
+      <circle cx="82.22222222222223" cy="0" r="5" fill="#b4d38f"/>
+      <text x="82.22222222222223" y="26" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="750" fill="#263647">Objection Tags</text>
+    </g>
+
+    <g transform="translate(1151.1111111111113 48)">
+      <circle cx="82.22222222222223" cy="0" r="5" fill="#c8dea9"/>
+      <text x="82.22222222222223" y="26" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="750" fill="#263647">CAC Scorecard</text>
+    </g>
+
+    <g transform="translate(1315.5555555555557 48)">
+      <circle cx="82.22222222222223" cy="0" r="5" fill="#d9e8c5"/>
+      <text x="82.22222222222223" y="26" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="750" fill="#263647">Creative Loop</text>
+    </g>
+  </g>
+</svg>

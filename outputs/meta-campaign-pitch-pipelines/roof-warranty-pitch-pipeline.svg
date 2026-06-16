@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Roof Warranty full-cycle outreach pipeline</title>
+  <desc id="desc">Pitch-deck readable full-cycle outreach pipeline for Roof Warranty.</desc>
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3f5ca5"/>
+      <stop offset="0.22" stop-color="#5195cf"/>
+      <stop offset="0.46" stop-color="#4393a2"/>
+      <stop offset="0.7" stop-color="#4ea793"/>
+      <stop offset="1" stop-color="#96c355"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f4f8fb"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#10243f" flood-opacity="0.11"/>
+    </filter>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#dfe8f0" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="900" fill="#f7f9fb"/>
+  <rect width="1600" height="900" fill="url(#grid)" opacity="0.35"/>
+
+  <g transform="translate(54 48)">
+    <g>
+      <path d="M0 15 34 2l34 13v48L34 76 0 63Z" fill="#02060b"/>
+      <path d="M17 25 34 19l17 6v7L34 26l-17 6Z" fill="#f7f9fb"/>
+      <path d="M17 43 34 37l17 6-17 7Z" fill="#f7f9fb"/>
+      <path d="M17 55 34 61l17-6v8L34 69 17 63Z" fill="#f7f9fb"/>
+    </g>
+    <text x="86" y="50" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="850" fill="#02060b">2Stack</text>
+  </g>
+  <g transform="translate(405 52)">
+    <text x="0" y="46" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="900" fill="#02060b">Roof Warranty</text>
+    <text x="0" y="86" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="650" letter-spacing="1.1" fill="#10243f">FULL-CYCLE OUTREACH PIPELINE</text>
+  </g>
+  <g transform="translate(1170 48)">
+    <rect x="0" y="0" width="360" height="92" rx="18" fill="#ffffff" stroke="#d5e0ea"/>
+    <text x="24" y="32" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="850" fill="#6a7480">LIVE CAMPAIGN ROUTE</text>
+    <text x="24" y="62" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="850" fill="#10243f">/meta/roof-warranty</text>
+  </g>
+  <g transform="translate(54 168)">
+    <rect x="0" y="0" width="1492" height="74" rx="18" fill="url(#topGrad)"/>
+    <text x="34" y="47" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="900" fill="#ffffff">Protection-led click to warranty-backed quote</text>
+    <text x="1050" y="47" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="750" fill="#ffffff">Source: AllSeason Meta Lifetime Warranty</text>
+  </g>
+  <g>
+    <g transform="translate(54 290)" filter="url(#shadow)">
+          <rect x="0" y="0" width="230" height="310" rx="18" fill="url(#cardGrad)" stroke="#d8e4ed"/>
+          <circle cx="34" cy="38" r="22" fill="#3f5ca5"/>
+          <text x="34" y="46" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="900" fill="#ffffff">1</text>
+          <text x="66" y="35" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="900" fill="#10243f">Ad Promise</text>
+          <rect x="20" y="76" width="190" height="4" rx="2" fill="#3f5ca5" opacity="0.9"/>
+          <text x="22" y="122" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#263647">Homeowner clicks</text>
+<text x="22" y="146" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#263647">because</text>
+<text x="22" y="170" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#263647">protection,</text>
+<text x="22" y="194" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#263647">trust, and</text>
+<text x="22" y="218" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#263647">warranty matter.</text>
+        </g>
+<g transform="translate(306 290)" filter="url(#shadow)">
+          <rect x="0" y="0" width="230" height="310" rx="18" fill="url(#cardGrad)" stroke="#d8e4ed"/>
+          <circle cx="34" cy="38" r="22" fill="#5195cf"/>
+          <text x="34" y="46" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="900" fill="#ffffff">2</text>
+          <text x="66" y="35" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="900" fill="#10243f">Landing Capture</text>
+          <rect x="20" y="76" width="190" height="4" rx="2" fill="#5195cf" opacity="0.9"/>
+          <text x="22" y="122" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#263647">Page captures</text>
+<text x="22" y="146" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#263647">roof condition,</text>
+<text x="22" y="170" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#263647">warranty</text>
+<text x="22" y="194" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#263647">interest,</text>
+<text x="22" y="218" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#263647">timing, contact,</text>
+<text x="22" y="242" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#263647">and consent.</text>
+        </g>
+<g transform="translate(558 290)" filter="url(#shadow)">
+          <rect x="0" y="0" width="230" height="310" rx="18" fill="url(#cardGrad)" stroke="#d8e4ed"/>
+          <circle cx="34" cy="38" r="22" fill="#4393a2"/>
+          <text x="34" y="46" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="900" fill="#ffffff">3</text>
+          <text x="66" y="35" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="900" fill="#10243f">RevOps Routing</text>
+          <rect x="20" y="76" width="190" height="4" rx="2" fill="#4393a2" opacity="0.9"/>
+          <text x="22" y="122" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#263647">Lead routes to</text>
+<text x="22" y="146" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#263647">roofing preview</text>
+<text x="22" y="170" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#263647">with warranty</text>
+<text x="22" y="194" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#263647">context before</text>
+<text x="22" y="218" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#263647">the first call.</text>
+        </g>
+<g transform="translate(810 290)" filter="url(#shadow)">
+          <rect x="0" y="0" width="230" height="310" rx="18" fill="url(#cardGrad)" stroke="#d8e4ed"/>
+          <circle cx="34" cy="38" r="22" fill="#4ea793"/>
+          <text x="34" y="46" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="900" fill="#ffffff">4</text>
+          <text x="66" y="35" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="900" fill="#10243f">Day 0 Outreach</text>
+          <rect x="20" y="76" width="190" height="4" rx="2" fill="#4ea793" opacity="0.9"/>
+          <text x="22" y="122" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#263647">Rep compares</text>
+<text x="22" y="146" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#263647">roof system,</text>
+<text x="22" y="170" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#263647">certified</text>
+<text x="22" y="194" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#263647">install,</text>
+<text x="22" y="218" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#263647">warranty level,</text>
+<text x="22" y="242" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#263647">and timing.</text>
+        </g>
+<g transform="translate(1062 290)" filter="url(#shadow)">
+          <rect x="0" y="0" width="230" height="310" rx="18" fill="url(#cardGrad)" stroke="#d8e4ed"/>
+          <circle cx="34" cy="38" r="22" fill="#96c355"/>
+          <text x="34" y="46" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="900" fill="#ffffff">5</text>
+          <text x="66" y="35" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="900" fill="#10243f">Appointment Path</text>
+          <rect x="20" y="76" width="190" height="4" rx="2" fill="#96c355" opacity="0.9"/>
+          <text x="22" y="122" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#263647">Book a roof</text>
+<text x="22" y="146" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#263647">review and</text>
+<text x="22" y="170" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#263647">present good,</text>
+<text x="22" y="194" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#263647">better, best</text>
+<text x="22" y="218" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#263647">options clearly.</text>
+        </g>
+<g transform="translate(1314 290)" filter="url(#shadow)">
+          <rect x="0" y="0" width="230" height="310" rx="18" fill="url(#cardGrad)" stroke="#d8e4ed"/>
+          <circle cx="34" cy="38" r="22" fill="#add081"/>
+          <text x="34" y="46" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="900" fill="#ffffff">6</text>
+          <text x="66" y="35" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="900" fill="#10243f">Scale Loop</text>
+          <rect x="20" y="76" width="190" height="4" rx="2" fill="#add081" opacity="0.9"/>
+          <text x="22" y="122" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#263647">Scale by</text>
+<text x="22" y="146" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#263647">margin-quality</text>
+<text x="22" y="170" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#263647">appointments,</text>
+<text x="22" y="194" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#263647">quote rate, and</text>
+<text x="22" y="218" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#263647">close rate by</text>
+<text x="22" y="242" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#263647">tier.</text>
+        </g>
+  </g>
+  <g transform="translate(54 652)">
+    <rect x="0" y="0" width="720" height="158" rx="20" fill="#ffffff" stroke="#d8e4ed" filter="url(#shadow)"/>
+    <text x="28" y="38" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="900" fill="#10243f">REP OPENER</text>
+    <text x="28" y="78" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800" fill="#263647">You came through the warranty page, so I want to compare</text>
+<text x="28" y="104" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800" fill="#263647">system, installation, and protection before price by</text>
+<text x="28" y="130" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800" fill="#263647">itself.</text>
+  </g>
+  <g transform="translate(826 652)">
+    <rect x="0" y="0" width="720" height="158" rx="20" fill="#ffffff" stroke="#d8e4ed" filter="url(#shadow)"/>
+    <text x="28" y="38" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="900" fill="#10243f">OWNER SCORECARD</text>
+    <g transform="translate(30 74)">
+          <circle cx="10" cy="0" r="7" fill="#4393a2" opacity="0.95"/>
+          <text x="28" y="7" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800" fill="#263647">Quote request rate</text>
+        </g>
+<g transform="translate(360 74)">
+          <circle cx="10" cy="0" r="7" fill="#4ea793" opacity="0.95"/>
+          <text x="28" y="7" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800" fill="#263647">Warranty interest rate</text>
+        </g>
+<g transform="translate(30 118)">
+          <circle cx="10" cy="0" r="7" fill="#96c355" opacity="0.95"/>
+          <text x="28" y="7" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800" fill="#263647">Booked quote CAC</text>
+        </g>
+<g transform="translate(360 118)">
+          <circle cx="10" cy="0" r="7" fill="#add081" opacity="0.95"/>
+          <text x="28" y="7" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800" fill="#263647">Close rate by tier</text>
+        </g>
+  </g>
+  <g transform="translate(54 842)">
+    <text x="0" y="0" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="750" fill="#6a7480">What this shows in the pitch: the ad does not create an isolated lead. It starts a tracked, source-aware outreach system that moves from click to booked review to revenue feedback.</text>
+  </g>
+</svg>

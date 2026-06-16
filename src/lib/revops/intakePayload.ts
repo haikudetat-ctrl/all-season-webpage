@@ -3,6 +3,10 @@ import type { RoofQuoteEstimate } from "@/lib/quote/types";
 
 export function buildLeadIntakePayload(request: RoofQuoteRequest, estimate: RoofQuoteEstimate) {
   const attribution = request.attribution ?? {};
+  const sourceName = attribution.sourceName ?? "AllSeason Roof Quote";
+  const sourceType = attribution.sourceType ?? "owned_website";
+  const exclusiveStatus = attribution.exclusiveStatus ?? "exclusive";
+
   return {
     lead: {
       external_ids: {
@@ -36,9 +40,9 @@ export function buildLeadIntakePayload(request: RoofQuoteRequest, estimate: Roof
         requested_quote_type: "good_better_best"
       },
       source: {
-        source_name: "AllSeason Roof Quote",
-        source_type: "owned_website",
-        exclusive_status: "exclusive",
+        source_name: sourceName,
+        source_type: sourceType,
+        exclusive_status: exclusiveStatus,
         landing_page: attribution.landingPage,
         utm_source: attribution.utmSource,
         utm_medium: attribution.utmMedium,
@@ -50,6 +54,7 @@ export function buildLeadIntakePayload(request: RoofQuoteRequest, estimate: Roof
         wbraid: attribution.wbraid,
         fbclid: attribution.fbclid,
         quote_session_id: request.sessionId,
+        campaign_source_name: sourceName,
         quote_estimate: {
           roof_squares: estimate.roofSquares,
           good: estimate.tiers.good,

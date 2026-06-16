@@ -1,7 +1,9 @@
 import type { RoofQuoteRequest } from "@/lib/quote/request";
 import type { RoofQuoteEstimate } from "@/lib/quote/types";
+import type { SolarSavingsRequest } from "@/lib/solar/request";
 import { buildLeadIntakePayload } from "./intakePayload";
 import { postSupabaseRest } from "./rest";
+import { buildSolarLeadIntakePayload } from "./solarIntakePayload";
 
 type IntakeResponse = {
   accepted: boolean;
@@ -14,6 +16,14 @@ type IntakeResponse = {
 };
 
 export async function submitQuoteLead(request: RoofQuoteRequest, estimate: RoofQuoteEstimate): Promise<IntakeResponse> {
+  return submitLeadIntakePayload(buildLeadIntakePayload(request, estimate));
+}
+
+export async function submitSolarLead(request: SolarSavingsRequest): Promise<IntakeResponse> {
+  return submitLeadIntakePayload(buildSolarLeadIntakePayload(request));
+}
+
+async function submitLeadIntakePayload(payload: Record<string, unknown>): Promise<IntakeResponse> {
   const intakeUrl = process.env.REVOPS_INTAKE_URL;
   const intakeKey = process.env.REVOPS_INTAKE_KEY;
 
@@ -27,7 +37,7 @@ export async function submitQuoteLead(request: RoofQuoteRequest, estimate: RoofQ
       "Content-Type": "application/json",
       "x-revops-intake-key": intakeKey
     },
-    body: JSON.stringify(buildLeadIntakePayload(request, estimate))
+    body: JSON.stringify(payload)
   });
 
   const body = await response.json().catch(() => ({}));
@@ -41,6 +51,7 @@ export async function submitQuoteLead(request: RoofQuoteRequest, estimate: RoofQ
 export async function storeQuoteJourney(request: RoofQuoteRequest, estimate: RoofQuoteEstimate): Promise<void> {
   const sessionId = request.sessionId;
   if (!sessionId) return;
+  const sourceName = request.attribution?.sourceName ?? "AllSeason Roof Quote";
 
   await postSupabaseRest("quote_sessions", {
     id: sessionId,
@@ -86,7 +97,7 @@ export async function storeQuoteJourney(request: RoofQuoteRequest, estimate: Roo
     referrer: request.attribution?.referrer ?? null,
     attribution: request.attribution ?? {},
     payload_json: {
-      source_name: "AllSeason Roof Quote",
+      source_name: sourceName,
       tiers: estimate.tiers,
       modifier_total: estimate.modifierTotal
     }
