@@ -5,7 +5,7 @@
 Get Chris to agree that Option A is the right first move:
 
 ```text
-$5,000 buildout + $3,000/month operating retainer
+$6,000 buildout + $12,000/month operating retainer
 ```
 
 The call should feel operator-to-operator. Avoid selling "marketing services." Sell control, speed, margin protection, and a cleaner path back toward a valuable company.
@@ -41,11 +41,11 @@ Option A is the version where we build the owned asset and stay in the seat long
 ```
 
 ```text
-The $5K gets the system built: the rebrand-ready website, the roof quote engine, the server-side lead intake, the source tracking, and the first campaign route.
+The $6K gets the system built: the rebrand-ready website, the roof quote engine, the server-side lead intake, the source tracking, and the first campaign route.
 ```
 
 ```text
-The $3K/month is not maintenance. That is us operating the revenue layer: tightening the quote flow, scripts, routing, landing pages, reporting, and the monthly decisions on what to scale, fix, or cut.
+The $12K/month is not maintenance. That is us operating the revenue layer: weekly campaign decisions, quote-flow tightening, scripts, routing, landing pages, source-quality review, reporting, and the monthly decisions on what to scale, fix, or cut.
 ```
 
 ## Why Not Build-Only
@@ -87,7 +87,7 @@ Once that layer is working, we will know which tool limitations are real and whi
 ## The Ask
 
 ```text
-My recommendation is Option A: $5K to build it, $3K/month to operate it, and we judge the first 90 days on owner-level numbers.
+My recommendation is Option A: $6K to build it, $12K/month to operate it, and we judge the first 90 days on owner-level numbers.
 ```
 
 ```text

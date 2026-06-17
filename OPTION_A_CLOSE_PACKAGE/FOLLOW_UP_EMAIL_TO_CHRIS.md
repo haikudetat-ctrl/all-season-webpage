@@ -25,11 +25,11 @@ The main thing we took from the call is that this should not be treated as a nor
 
 Our recommendation is Option A:
 
-- $5,000 buildout
-- $3,000/month operating retainer
+- $6,000 buildout
+- $12,000/month operating retainer
 - 90-day proof cycle
 
-That includes the rebrand-ready website, native roof quote engine, secure lead intake, source-specific routing, the first Meta campaign path, day-zero scripting, and the monthly owner scorecard.
+That includes the rebrand-ready website, native roof quote engine, secure lead intake, source-specific routing, three Meta campaign paths, day-zero scripting, full-cycle outreach assets, RevOps scorecarding, and the monthly owner review.
 
 The reason we recommend Option A over build-only is simple: the value is not just launching the asset. The value is operating it for the first 90 days so we can see what contacts, what sets, what demos, what sells, and what should be scaled, fixed, or cut.
 
@@ -46,5 +46,5 @@ Joe + Chris
 ## Short Text Follow-Up
 
 ```text
-Chris, sending over the Option A recap now. The short version: $5K buildout + $3K/mo to build the owned acquisition system and operate the first 90-day proof cycle. The goal is source-to-CAC clarity, not just a prettier site.
+Chris, sending over the Option A recap now. The short version: $6K buildout + $12K/mo to build the owned acquisition system and operate the first 90-day proof cycle. The goal is source-to-CAC clarity, not just a prettier site.
 ```

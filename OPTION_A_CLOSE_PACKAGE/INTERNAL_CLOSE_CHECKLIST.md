@@ -42,7 +42,7 @@ If we can show source-to-contact-to-set-to-sale clearly, is that the kind of sys
 ## Option A Close
 
 ```text
-Our recommendation is Option A: $5,000 to build the owned system, $3,000/month to operate the first 90-day proof cycle.
+Our recommendation is Option A: $6,000 to build the owned system, $12,000/month to operate the first 90-day proof cycle.
 ```
 
 ```text
@@ -90,6 +90,7 @@ Do promise:
 - [ ] Service area ZIP list.
 - [ ] Roofing price/modifier assumptions.
 - [ ] Sales disposition definitions.
+- [ ] Current campaign assets and approval path for weekly creative tests.
 
 ## First 72 Hours After Close
 

@@ -24,7 +24,8 @@ This log records the production-proof checks completed for the Option A package 
 | Supabase Edge Function deploy | Passed | `lead-intake` deployed to version `3` with `verify_jwt: false`. |
 | Live roof quote lead | Passed | Production request created accepted `P0` roofing lead. |
 | Live Fight The Power lead | Passed | Production request created accepted `P0` solar lead. |
-| Website event persistence | Blocked | Vercel is missing `SUPABASE_SERVICE_ROLE_KEY`, so `/api/website-event` returns `stored:false`. |
+| Website event persistence | Passed | Vercel `SUPABASE_SERVICE_ROLE_KEY` is now present; `/api/website-event` returns `stored:true`. |
+| Quote/session/event persistence | Passed | Production roof quote path created the quote journey and accepted lead without storage errors. |
 
 ## Live Roof Quote Test
 
@@ -52,24 +53,51 @@ This log records the production-proof checks completed for the Option A package 
 | Script | `fight_the_power_opener` |
 | Decision reason | `meta_fight_power_solar_qualified` |
 
-## Remaining Production Blocker
+## Service Role Key Verification
 
-Add this Vercel environment variable to Production and Development:
+After `SUPABASE_SERVICE_ROLE_KEY` was added to Vercel Production, 2Stack reran the production checks.
+
+### Direct Website Event Test
+
+| Field | Value |
+|---|---|
+| API | `https://all-season-webpage.vercel.app/api/website-event` |
+| Event | `quote_started` |
+| Response | `200` / `{"ok":true,"stored":true}` |
+| Notes | Stored without a quote session, proving direct event persistence is active. |
+
+### Full Roof Quote Storage Test
+
+| Field | Value |
+|---|---|
+| Test email | `service-role-verified+1781710403743@2stacksystems.com` |
+| Session ID | `47ee6dc8-41f5-43e9-bcdd-1f7fb3739490` |
+| Lead ID | `9e7ee141-bc06-4502-bae7-05ab2887a041` |
+| Priority | `P0` |
+| Route | `roofing_preview_queue` |
+| Sequence | `roofing_day0_high_intent` |
+| Script | `roof_quote_widget_opener` |
+| Estimate event | `estimate_shown` stored during quote path |
+
+### Existing Session Event Test
+
+| Field | Value |
+|---|---|
+| Session ID | `47ee6dc8-41f5-43e9-bcdd-1f7fb3739490` |
+| Event | `quote_step_completed` |
+| Response | `200` / `{"ok":true,"stored":true}` |
+| Notes | Stored against the quote session created by the production roof quote path. |
+
+## Resolved Production Blocker
+
+This former blocker is resolved:
 
 ```text
 SUPABASE_SERVICE_ROLE_KEY
 ```
 
-The only local candidate key failed a read-only Supabase REST auth check with `401`, so it was not added to Vercel.
-
-Once the real key is added, rerun:
-
-1. Submit `/api/roof-quote`.
-2. Confirm `quote_sessions` has the session row.
-3. Confirm `quote_estimates` has the estimate row.
-4. Confirm `website_events` has `estimate_shown`.
-5. Submit `/api/website-event` directly and confirm it returns `stored:true`.
+Vercel now lists `SUPABASE_SERVICE_ROLE_KEY` for Production and Preview. Production event storage returns `stored:true`, and the full quote path returns an accepted `P0` lead while completing the server-side quote journey.
 
 ## Operator Readout
 
-The owned acquisition loop is now production-proven for lead creation and routing. The remaining gap is event/session persistence, which is an environment secret issue rather than an application logic issue.
+The owned acquisition loop is now production-proven for lead creation, routing, quote journey persistence, and website event storage. The remaining non-product limitation is that the Supabase MCP token in the local Codex session expired during SQL verification, so direct SQL count checks should be rerun after reconnecting Supabase MCP if a database-row screenshot is needed.

@@ -232,11 +232,11 @@ function renderHtml(sections) {
     <div>
       <p class="kicker">AllSeason Option A Close Package</p>
       <h1>Owned acquisition buildout plus 90-day revenue system operation.</h1>
-      <p class="subtitle">A Chris-facing package for approving the $5,000 buildout and $3,000/month operating retainer with scope, scorecard, talk track, production proof, and next-step email.</p>
+      <p class="subtitle">A Chris-facing package for approving the $6,000 buildout and $12,000/month operating retainer with updated SOW, scorecard, talk track, production proof, and campaign assets.</p>
     </div>
     <div class="cover-meta">
-      <div class="meta-card"><strong>$5,000</strong><span>Website, quote engine, intake, and campaign loop buildout</span></div>
-      <div class="meta-card"><strong>$3,000/mo</strong><span>90-day operating retainer for source quality, speed-to-lead, and CAC discipline</span></div>
+      <div class="meta-card"><strong>$6,000</strong><span>Website, quote engine, intake, and campaign loop buildout</span></div>
+      <div class="meta-card"><strong>$12,000/mo</strong><span>90-day operating retainer for campaign testing, RevOps QA, speed-to-lead, and CAC discipline</span></div>
       <div class="meta-card"><strong>30-day notice</strong><span>Break clause after the first 90-day proof cycle</span></div>
     </div>
   </section>

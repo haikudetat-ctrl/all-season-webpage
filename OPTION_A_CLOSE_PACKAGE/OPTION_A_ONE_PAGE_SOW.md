@@ -5,7 +5,7 @@
 **Client:** AllSeason Solar / Roofing
 **Provider:** 2Stack
 **Offer:** Option A - Owned Acquisition Buildout + Revenue System Operation
-**Price:** $5,000 buildout + $3,000/month operating retainer
+**Price:** $6,000 buildout + $12,000/month operating retainer
 **Recommended term:** 90-day operating cycle after launch readiness
 
 ## Objective
@@ -89,20 +89,39 @@ Initial owner scorecard:
 
 ## Monthly Operating Retainer
 
-The $3,000/month retainer is for operating the system, not passive maintenance.
+The $12,000/month retainer is for operating the acquisition system, not passive maintenance.
 
 Included monthly work:
 
-- campaign and landing page improvement;
+- weekly campaign, landing page, and creative testing decisions;
 - quote flow conversion tuning;
-- source-specific script refinement;
-- lead routing QA;
-- speed-to-lead review;
-- tracking and scorecard review;
+- source-specific script and sequence refinement;
+- lead routing QA and P0 handling review;
+- speed-to-lead and disposition review;
+- tracking, event, and scorecard review;
+- Meta campaign launch management and source-quality readouts;
+- coordination with internal sales/call-center owners on handoff gaps;
 - monthly owner recommendations:
   - scale this;
   - fix this;
   - cut this.
+
+## Assets and Deliverables Referenced By This SOW
+
+The buildout and operating cycle reference the current package assets:
+
+- Chris-facing pitch deck PowerPoint;
+- Option A one-page SOW;
+- 90-day owner scorecard mockup;
+- production proof log;
+- Fight The Power landing page and lead intake path;
+- Fight The Power touch sequence;
+- Old Roof 15+ touch sequence;
+- Roof Warranty touch sequence;
+- Meta campaigns GTM package;
+- Meta ads launch strategy report;
+- RevOps operating map;
+- full-cycle campaign flowcharts and pitch-pipeline visuals.
 
 ## Timeline
 
@@ -139,7 +158,15 @@ The guarantee is operating discipline, clean implementation, and transparent mea
 
 After the first 90-day operating cycle, either side may end the monthly retainer with 30 days written notice.
 
-If the client chooses Option B/build-only, there is no ongoing operating commitment after delivery.
+If the client chooses Option B/build-only, there is no ongoing operating commitment after delivery. If the client chooses Option C/operate-only, website rebuild scope is excluded unless separately approved.
+
+## Pricing Options
+
+| Option | Structure | Best Fit | Scope |
+|---|---:|---|---|
+| Option A - Build + Operate | $6,000 buildout + $12,000/month | Recommended path | Website MVP, quote engine, lead intake, campaign routes, RevOps map, scripts, scorecard, and 90-day operating cycle |
+| Option B - Build Only | $6,000 one-time | If Chris only wants the owned asset delivered | Website MVP, quote path, core intake wiring, and launch handoff; no monthly optimization or operating cadence |
+| Option C - Operate Only | $12,000/month | If Chris wants 2Stack operating the current stack first | Campaign, routing, scripting, scorecard, and source-quality operation using the current site/tools where possible |
 
 ## Client Responsibilities
 
@@ -168,8 +195,8 @@ AllSeason provides:
 Approve Option A:
 
 ```text
-$5,000 buildout
-$3,000/month operating retainer
+$6,000 buildout
+$12,000/month operating retainer
 90-day proof cycle
 ```
 

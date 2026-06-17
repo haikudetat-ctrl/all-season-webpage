@@ -3,7 +3,7 @@
 Prepared for pitching Chris on the recommended engagement:
 
 ```text
-Option A: $5,000 buildout + $3,000/month operating retainer
+Option A: $6,000 buildout + $12,000/month operating retainer
 ```
 
 ## Package Contents
@@ -70,9 +70,20 @@ You already know how to spend money on leads. Option A is how we make the spend 
    - Reporting tells Chris what to scale, fix, or cut.
 
 4. Ask for Option A.
-   - $5,000 to build the owned asset.
-   - $3,000/month to operate the first 90-day proof cycle.
+   - $6,000 to build the owned asset.
+   - $12,000/month to operate the first 90-day proof cycle.
    - Break clause after the first 90 days with 30 days notice.
+
+## Updated Assets Referenced In The Pitch
+
+- Rebrand-ready website MVP and native roof quote path.
+- Fight The Power Meta landing route and solar savings intake.
+- Old Roof 15+ and Roof Warranty Meta landing routes.
+- Source-specific touch sequences for all three campaign themes.
+- RevOps operating map: source fields, routing, stages, SLAs, and scorecard.
+- Meta launch strategy report and spend/testing framework.
+- Full-cycle outreach pipeline visuals for pitch use.
+- Option A SOW, talk track, follow-up email, production proof log, and 90-day scorecard.
 
 ## Close Criteria
 
